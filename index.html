@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Phone cat template</title>
+    <!-- Bootstrap -->
+    <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+    <link href="assets/css/animations.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div class="view-container">
+    <div class="view-frame" ng-view></div>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+
+    <script src="assets/js/vendor/angular.1.4.3.min.js"></script>
+    <script src="assets/js/vendor/angular-route.js"></script>
+    <script src="assets/js/vendor/angular-resource.1.4.3.min.js"></script>
+    <script src="assets/js/vendor/angular-animate.1.4.3.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="data/phones.js"></script>
+    <script src="assets/js/scripts/app.js"></script>
+    <script src="assets/js/scripts/filters.js"></script>
+    <script src="assets/js/scripts/services.js"></script>
+    <script src="assets/js/scripts/animations.js"></script>
+    <script src="assets/js/scripts/controllers/controllers.js"></script>
+  </body>
+</html>
